@@ -10,11 +10,11 @@ package com.ling.base.stringmodule;/**
  */
 public class StringIterByCodePoint {
     private String iterString = "" ;
-    StringIterByCodePoint(String iterString){
+    public StringIterByCodePoint(String iterString){
         this.iterString = iterString ;
     }
 
-    StringIterByCodePoint(String path , String filename){
+    public StringIterByCodePoint(String path , String filename){
 
     }
     public void printlnByIter(){
