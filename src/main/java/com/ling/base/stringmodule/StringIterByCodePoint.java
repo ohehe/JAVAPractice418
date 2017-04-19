@@ -15,7 +15,7 @@ public class StringIterByCodePoint {
     }
 
     StringIterByCodePoint(String path , String filename){
-        if(path)
+
     }
     public void printlnByIter(){
         if(iterString==null&&iterString.equals("")){
