@@ -46,7 +46,7 @@ public class SingletonWithSyn {
         e>此时B线程打算使用Singleton实例，却发现它没有被初始化，于是错误发生了。
          */
         if(instance == null){
-            synchronized (instance){
+            synchronized (SingletonWithSyn.class){
                 if(instance == null){
                     instance = new SingletonWithSyn() ;
                 }

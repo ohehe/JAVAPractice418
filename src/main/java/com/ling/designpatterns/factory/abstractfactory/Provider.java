@@ -5,7 +5,7 @@ package com.ling.designpatterns.factory.abstractfactory;/**
 import com.ling.designpatterns.factory.simplefactory.Sender;
 
 /**
- * 对抽象工厂的接口
+ * 对抽象工厂的接口  TODO: 此处之后要改 没写关于产品族的概念 太简单
  *
  * @author Administrator
  * @create 2017-04-19 13:06
