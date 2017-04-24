@@ -9,7 +9,7 @@ public class DecoratorTest extends TestCase {
 
     public void testMethod() throws Exception {
         Sourceable sourceable = new Source() ;
-        Sourceable obj = new Decorator(sourceable) ;
+        Decorator obj = new Decorator(sourceable) ;
         obj.method();
     }
 }
